@@ -266,6 +266,8 @@
 \gdef\@faculty{Fakultas Sains dan Teknologi }
 \newcommand{\headdept}[1]{\gdef\@headdept{#1}}
 \newcommand{\@headdept}{}
+\newcommand{\nipheaddept}[1]{\gdef\@nipheaddept{#1}}
+\newcommand{\@nipheaddept}{}
 \newcommand{\titleind}[1]{\gdef\@titleind{#1}}
 \newcommand{\@titleind}{}                        
 \newcommand{\titleinddua}[1]{\gdef\@titleinddua{#1}}    %--------------------
@@ -374,7 +376,8 @@
        \vspace{1.5cm}
        {\normalfont 
          
-         \MakeUppercase{\normalfont\@faculty}\\
+         \MakeUppercase{\normalfont PROGRAM STUDI \@prodi}\\
+	 \MakeUppercase{\normalfont\@faculty}\\
          \MakeUppercase{\normalfont\@university}\\
          \MakeUppercase{\normalfont\@city}\\
          %\vspace{0.5cm}
@@ -439,8 +442,8 @@ NIP : \@nippembimbingkedua
 \begin{center}
 Mengetahui,\\
 Ketua Prodi \@prodi\\[1.5cm]
-\textbf{\@pembimbingkedua}\\
-NIP : \@nippembimbingkedua
+\textbf{\@headdept}\\
+NIP : \@nipheaddept
 \end{center}
 \end{minipage}
 \end{center}
