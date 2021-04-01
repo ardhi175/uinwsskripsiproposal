@@ -1,5 +1,5 @@
 \NeedsTeXFormat{LaTeX2e}
-\ProvidesClass{uinwsskripsi}[2021/02/14 v2.0 class skripsi FST UIN Walisongo Semarang]
+\ProvidesClass{uinwsskripsiproposal}[2021/02/14 v2.0 class proposal skripsi FST UIN Walisongo Semarang]
 
 %-----------------------------------------
 % created by MMF Vlogs 
